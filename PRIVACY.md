@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: July 5, 2026
+Effective date: October 4, 2026
 
 Coregulation Journal is designed as a private journaling app for caregivers. This policy explains what information the app handles and how that information is used.
 
@@ -9,7 +9,7 @@ Coregulation Journal is designed as a private journaling app for caregivers. Thi
 Coregulation Journal stores the information you choose to enter in the app, including:
 
 - caregiver display name;
-- child profile names and profile colors;
+- child profile names and profile colors, and optionally each child's birth month and year and gender;
 - behavior logs, including dates, intensity, duration, antecedents, behavior types, consequences, location, people present, outcomes, and notes;
 - parent reaction logs, including emotional state, intensity, responses used, repair status, and notes;
 - imported journal data from compatible JSON export files.
@@ -21,6 +21,10 @@ Do not enter information you do not want stored in the app or synced through you
 Journal data is stored on your device using Apple's local persistence frameworks. When iCloud is available, the app syncs your data through Apple's iCloud and CloudKit services so your journal can be available on your Apple devices.
 
 Coregulation Journal does not operate its own server for journal data.
+
+## Apple Intelligence Insights (Optional)
+
+Insights is off by default and only runs if you turn it on in Settings (or from the one-time introduction). When enabled, the app uses Apple's on-device Foundation Models to read your recent child and parent logs, plus a child's age and gender if you entered them, and write short insights. The birth date itself is never included, only the age and gender. This processing happens entirely on your device: your logs and the generated insights are not sent to us, to Apple's servers, or to any third party. Generated insights are stored only on your device, are not synced through iCloud, and are deleted when you turn Insights off.
 
 ## Sharing
 
