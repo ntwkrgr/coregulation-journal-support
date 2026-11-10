@@ -6,7 +6,7 @@ Public support, feedback, and policies for **Coregulation Journal**, an iOS app 
 - **Support and feedback:** [open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues)
 - **Privacy policy:** [PRIVACY.md](PRIVACY.md)
 
-Current version: **1.2**
+Current version: **1.3**
 
 ## About the App
 
@@ -24,8 +24,10 @@ It is built around the ABC model (antecedent, behavior, consequence) and pairs e
 - **Insights (new in 1.2, optional):** short, on-device summaries written by Apple Intelligence. See [Insights](#insights).
 - **iCloud sync:** your journal syncs across your Apple devices through your own iCloud account.
 - **Co-parent sharing:** share a child's profile and behavior logs with another caregiver through iCloud. Your parent reaction logs stay private to you.
-- **Export and import:** back up or move your data as a JSON file from **Settings → Data**.
-- **No rating pop-ups:** the app never asks you for a review. If you'd like to leave one, there's a link in **Settings → About**.
+- **Practitioner sharing (new in 1.3):** give a child's therapist, psychiatrist, or pediatrician a read-only view of the behavior logs you choose: all logs, a recent window, or only logs you select. Your parent reaction logs are never shared.
+- **New-log notifications (new in 1.3, optional):** get a notification when a co-parent adds a log. It shows the child's name and who added the log, never the log's details. Off by default; turn it on in **Settings → Notifications**.
+- **Export and import:** export or import child profiles and behavior logs as a JSON file from **Settings → Data**. Parent reaction logs are not included in the file.
+- **No rating or tip pop-ups:** the app never asks you for a review or a tip. If you'd like to leave a review or an optional tip (it unlocks nothing), you'll find both in **Settings → Feedback**.
 
 ## Insights
 
@@ -46,6 +48,7 @@ Insights is an optional feature introduced in version 1.2. It is off by default.
 ## Privacy at a Glance
 
 - No account with us, and no server of ours. Your journal lives on your device and in your own iCloud account.
+- Your journal reaches someone else's iCloud account only when you share it with a co-parent or a practitioner.
 - No ads, no third-party analytics, and no tracking.
 - Your data is never sold.
 
@@ -53,6 +56,6 @@ Read the full [privacy policy](PRIVACY.md) for details.
 
 ## Getting Help
 
-[Open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues) to report a problem, ask a question, or suggest a feature. Including your iOS version, device model, and app version (1.2 or earlier) helps.
+[Open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues) to report a problem, ask a question, or suggest a feature. Including your iOS version, device model, and app version helps.
 
 **Please don't include personal journal details, your child's information, or exported data files in an issue.** Issues on this repository are public.
