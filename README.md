@@ -6,7 +6,7 @@ Public support, feedback, and policies for **Coregulation Journal**, an iOS app 
 - **Support and feedback:** [open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues)
 - **Privacy policy:** [PRIVACY.md](PRIVACY.md)
 
-Current version: **1.2**
+Current version: **1.3**
 
 ## About the App
 
@@ -16,16 +16,20 @@ It is built around the ABC model (antecedent, behavior, consequence) and pairs e
 
 ## Features
 
-- **Behavior logs:** record the date, intensity, duration, antecedents, behavior types, consequences, location, people present, outcome, and notes. Review an entry before saving it.
+- **Behavior logs:** record the date, intensity, duration, antecedents, behavior types, consequences, location, people present, contributing factors, outcome, and notes. Review an entry before saving it.
 - **Parent reaction logs:** record your own emotional state, intensity, the responses you used, and whether repair happened. Log a reaction on its own or linked to a behavior log.
-- **Child profiles:** add a profile for each child with a name and color, plus optional birth month/year and gender.
+- **Child profiles:** add a profile for each child with a name and any color, plus optional birth month/year and gender.
 - **History:** a day-by-day timeline of logs, and a per-child calendar where each day is colored by its highest intensity. Tap a day to see its logs.
-- **Dashboard:** charts of child and parent trends over 7, 30, or 90 days. Swipe between the Child and My Trends views.
+- **Dashboard:** charts of child and parent trends over 7, 30, or 90 days, with an optional 7-day or 30-day rolling average on the intensity charts. Swipe between the Child and My Trends views.
 - **Insights (new in 1.2, optional):** short, on-device summaries written by Apple Intelligence. See [Insights](#insights).
 - **iCloud sync:** your journal syncs across your Apple devices through your own iCloud account.
 - **Co-parent sharing:** share a child's profile and behavior logs with another caregiver through iCloud. Your parent reaction logs stay private to you.
+- **Practitioner sharing (new in 1.3):** invite a child's therapist, psychiatrist, or pediatrician to a read-only view of the behavior logs you choose: all logs, a recent window, or only the ones you pick. Practitioners can't add or change anything, and you can stop sharing any time.
+- **New-log notifications (new in 1.3, optional):** get a notification when a co-parent adds a log. It shows only the child's name and who added it.
+- **Log card colors (new in 1.3):** tint Home and History log cards by child color, intensity, or no color in **Settings → Log Cards**.
 - **Export and import:** back up or move your data as a JSON file from **Settings → Data**.
 - **No rating pop-ups:** the app never asks you for a review. If you'd like to leave one, there's a link in **Settings → About**.
+- **Free, forever:** every feature is free. An optional Tip Jar in **Settings → Feedback** lets you say thank you and support further development. It unlocks nothing, and the app never asks you to tip.
 
 ## Insights
 
@@ -53,6 +57,6 @@ Read the full [privacy policy](PRIVACY.md) for details.
 
 ## Getting Help
 
-[Open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues) to report a problem, ask a question, or suggest a feature. Including your iOS version, device model, and app version (1.2 or earlier) helps.
+[Open an issue](https://github.com/ntwkrgr/coregulation-journal-support/issues) to report a problem, ask a question, or suggest a feature. Including your iOS version, device model, and app version (1.3 or earlier) helps.
 
 **Please don't include personal journal details, your child's information, or exported data files in an issue.** Issues on this repository are public.
