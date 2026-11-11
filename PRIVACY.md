@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: October 4, 2026
+Effective date: November 2, 2026
 
 Coregulation Journal is designed as a private journaling app for caregivers. This policy explains what information the app handles and how that information is used.
 
@@ -9,8 +9,9 @@ Coregulation Journal is designed as a private journaling app for caregivers. Thi
 Coregulation Journal stores the information you choose to enter in the app, including:
 
 - caregiver display name;
+- whether you use the app as a parent, a practitioner, or both, and which view it opens on (stored only on your device and never synced);
 - child profile names and profile colors, and optionally each child's birth month and year and gender;
-- behavior logs, including dates, intensity, duration, antecedents, behavior types, consequences, location, people present, outcomes, and notes;
+- behavior logs, including dates, intensity, duration, antecedents, behavior types, consequences, location, people present, outcomes, contributing factors, and notes;
 - parent reaction logs, including emotional state, intensity, responses used, repair status, and notes;
 - imported journal data from compatible JSON export files.
 
@@ -24,7 +25,7 @@ Coregulation Journal does not operate its own server for journal data.
 
 ## Apple Intelligence Insights (Optional)
 
-Insights is off by default and only runs if you turn it on in Settings (or from the one-time introduction). When enabled, the app uses Apple's on-device Foundation Models to read your recent child and parent logs, plus a child's age and gender if you entered them, and write short insights. The birth date itself is never included, only the age and gender. This processing happens entirely on your device: your logs and the generated insights are not sent to us, to Apple's servers, or to any third party. Generated insights are stored only on your device, are not synced through iCloud, and are deleted when you turn Insights off.
+Insights is off by default and only runs if you turn it on in Settings (or from the one-time introduction). When enabled, the app uses Apple's on-device Foundation Models to read your recent child and parent logs, plus a child's age and gender if you entered them, and write short insights. If you use the app as a practitioner, it also reads the recent logs families have shared with you, plus each child's age and gender if the family entered them, and writes an insight for each child for you. The birth date itself is never included, only the age and gender. This processing happens entirely on your device: your logs and the generated insights are not sent to us, to Apple's servers, or to any third party. Generated insights are stored only on your device, are not synced through iCloud, and are deleted when you turn Insights off.
 
 ## Sharing
 
@@ -32,9 +33,29 @@ The app may allow you to share selected child profile and behavior log data with
 
 Parent reaction logs are intended to remain private to the caregiver who entered them.
 
+### Practitioner sharing
+
+You can invite a child's practitioner (for example a therapist, psychiatrist or pediatrician) to view a read-only summary of that child's behavior logs. You choose what is shared: all logs, a recent window, or only logs you select, and you can turn sharing on or off for any individual log.
+
+Only the logs you have chosen are sent to the practitioner's iCloud account. For each chosen log this includes its date and time, intensity, duration, antecedents, behaviors, consequences, locations, people present, whether the schedule was different, its contributing factors, every note on the log (the behavior note and the antecedent, consequence, location, schedule and contributing factor notes), the name of the person who recorded it (the display name set by you or your co-parent), and when it was last updated. Along with the logs, the practitioner receives the child's name and color and, if you entered them, the child's birth month and year and gender, plus the sharing setting you chose (for example "Last 30 days") and when it was last updated. Logs you have not chosen are not sent. Your own reaction logs are never shared with practitioners.
+
+The practitioner's copy is kept up to date by the app of the parent who owns the child's profile. A change made elsewhere (a co-parent turning sharing off for a log, or a log passing out of the recent window) is removed from what the practitioner can see the next time that parent opens the app, not before.
+
+If the practitioner turns on Insights, Apple Intelligence on their own device may read the logs you shared to write insights for them. That happens only on their device, and nothing is sent back to you, to us, or to any third party.
+
+Practitioners cannot add or change anything. You can stop sharing at any time from Settings, which removes the practitioner's access. Role labels you give practitioners (such as "Therapist") are stored only on your device.
+
+## Notifications (Optional)
+
+Notifications are off by default. If you turn them on in Settings, the app shows a notification on your device when someone you share a child profile with adds a behavior log. The notification is created on your device from data that has already synced through iCloud. It shows the child's name and the name of the caregiver who added the log, never the log's details. Coregulation Journal does not run a notification server and does not send journal content through Apple's push notification service; iCloud's own background sync signals carry no journal content. Your iOS notification settings control whether notifications and their previews appear on the lock screen.
+
 ## Export and Import
 
 The app includes JSON export and import tools. If you export data, the exported file is controlled by you. Be careful where you save or send exported files because they may contain personal journal information.
+
+## Tips (Optional)
+
+Settings includes an optional Tip Jar that uses Apple's In-App Purchase. Tips unlock nothing. Apple processes the payment, and the app never receives your payment details. The app keeps no record of tips and sends nothing about them to us or to anyone else. App Store Connect shows developers only aggregate sales reports, which do not identify you. Apple's handling of the purchase is covered by Apple's privacy policy and App Store terms.
 
 ## Analytics, Advertising, and Tracking
 
